@@ -1,0 +1,33 @@
+.valores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8rem;
+}
+
+.valores__quadro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3rem 4rem;
+}
+
+.valores__numero{
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--vermelho);
+}
+
+.valores__titulo{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--preto-azulado);
+    margin: 1rem 0;
+}
+
+.valores__texto{
+    color: var(--cinza);
+    line-height: 1.5rem;
+    text-align: start;
+}

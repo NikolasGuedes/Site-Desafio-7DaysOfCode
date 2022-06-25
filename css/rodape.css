@@ -1,0 +1,48 @@
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--branco-rodape);
+    padding: 6em 0;
+}
+
+.rodape__titulo{
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--preto-azulado);
+    margin-bottom: 1em;
+}
+
+.rodape__texto{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza);
+    margin-bottom: 0.5em;
+}
+
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.newsletter__email{
+    width: 350px;
+    height: 40px;
+    border: 1px solid var(--cinza-borda-claro);
+    border-radius: 8px;
+
+}
+
+.newsletter__email::placeholder{
+    color: var(--cinza);
+    padding: 0 2em;
+}
+
+.rodape__copyright{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cinza-claro);
+}

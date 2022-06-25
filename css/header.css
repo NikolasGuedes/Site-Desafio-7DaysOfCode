@@ -1,0 +1,48 @@
+.cabecalho {
+    display: flex;
+    padding: 2em 8em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 0.3rem;
+}
+
+.container__titulo {
+    color: var(--cinza-titulo);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.opcoes {
+    display: flex;
+    margin-right: auto;
+    padding-left: 10em;
+}
+
+.opcoes__item {
+    margin: 0 1em;
+}
+
+.opcoes__link, .container__link {
+    font-weight: 500;
+    color: var(--cinza);
+    text-decoration: none;
+}
+
+.container__botao {
+    background: var(--vermelho);
+    padding: 1em 1em;
+    border-radius: 12px;
+    margin-left: 1em;
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 500;
+}
+
